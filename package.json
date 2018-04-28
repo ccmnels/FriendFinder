@@ -1,0 +1,25 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "Pairs up compatible friends",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccmnels/FriendFinder.git"
+  },
+  "author": "Cecilia Nelson",
+  
+  "homepage": "https://github.com/ccmnels/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mysql": "^2.11.1",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "6.11.1"
+  }
+}
